@@ -1,0 +1,57 @@
+.newUser{
+    flex:4
+}
+.newUserItem{
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.newUserForm{
+    display: flex;
+    flex-direction: column; 
+}
+.newUserItem>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.newUserItem>input{
+    height: 20px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.newUserButton{
+    width: 200px;
+    border: none;
+    background-color: black;
+    padding: 7px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.newUsrButtonLink{
+    color: red;
+    display: block;
+    text-decoration: none;
+}
+#usrErrorMsg,#confirmErrorMsg, #nameErrorMsg, #passErrorMsg,#mailErrorMsg, #numberErrorMsg{
+    color: red;
+    /* visibility: hidden; */
+    display: none;
+    font-size: 15px; 
+}
+#isAdminDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+#isAdminLbl{
+    margin-left: 10px; 
+
+}

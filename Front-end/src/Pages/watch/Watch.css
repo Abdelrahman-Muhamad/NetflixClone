@@ -1,0 +1,26 @@
+iframe {
+    margin-top: 20px;
+}
+
+.watch {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.watch .back {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.watch .video {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}

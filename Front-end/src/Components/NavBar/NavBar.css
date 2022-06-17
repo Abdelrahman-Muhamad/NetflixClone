@@ -1,0 +1,50 @@
+/* NavBar style */
+.container{
+display: flex;
+margin-top: 10px;
+justify-content: space-between;
+}
+
+.navbar{
+   width: 100%; 
+    color: aliceblue;
+    font-size: 14px;
+    position:fixed;
+    top:0;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
+    
+}
+.scrolled{
+    background-color: var(--main-color);
+}
+.logo{
+    height: 25px;
+    /* padding-left: 50px; */
+    
+}
+.left span{
+    margin-left: 40px;
+}
+
+ .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    justify-items: right;
+    padding-bottom: 5px;
+}
+
+.icon{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* User Image Style */
+.UserImage{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+}

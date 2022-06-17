@@ -1,0 +1,76 @@
+
+/* the main background of the movie */
+.featued{
+    height: 90vh;
+    position: relative;
+}
+
+
+.featued img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.featued .category{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+
+/* Information section about the movie */
+.info {
+    width: 35%;
+    position: absolute;
+    left: 60px;
+    bottom: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.info img{
+    width: 400px;
+    
+}
+.info .Discription {
+    margin: 20px 0px;
+  }
+
+  /* buttons in information secction */
+
+ .Buttons{
+     display: flex;
+ } 
+.Buttons button{
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 10pt;
+     font-weight: 400;
+     margin-right: 10px;
+ }
+
+ .play{
+     background-color: white;
+     color: var(--main-color);
+ }
+ .play span{
+  margin-left:5px ;
+}
+ .more{
+    background-color:gray;
+    color: white;
+ }
+.more span{
+    margin-left:5px ;
+  }
